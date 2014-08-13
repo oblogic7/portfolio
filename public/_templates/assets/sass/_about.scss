@@ -1,0 +1,44 @@
+#about {
+  background: $blue;
+  border-top: 4px solid $yellow;
+  padding: 20px 0;
+
+  a {
+    color: $yellow;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #about {
+
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #about {
+
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #about {
+
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #about {
+
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #about {
+
+  }
+}

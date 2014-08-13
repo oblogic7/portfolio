@@ -1,0 +1,7 @@
+/app/config
+/vendor/
+composer.phar
+composer.lock
+/.idea/
+.sass-cache/
+resume.pdf

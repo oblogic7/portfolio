@@ -1,0 +1,66 @@
+body {
+  color: #fff;
+  font-family: $font-open-sans;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-josefin;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+.btn-flat {
+  width: 100%;
+  border-radius: 0;
+  padding: 10px 0;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  background: $blue;
+  border: 2px solid $light-blue;
+  color: white;
+
+  &:hover {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+}
+
+.top-link {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #fff;
+  border: 4px solid $blue;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all .2s linear;
+  @include opacity(0);
+  z-index: 100;
+
+  &.visible {
+    @include opacity(1);
+  }
+  a {
+    color: $blue;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

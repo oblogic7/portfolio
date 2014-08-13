@@ -1,0 +1,44 @@
+#footer {
+  background: $orange;
+  color: #fff;
+  padding: 20px;
+
+  a {
+    color: #fff;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #footer {
+
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #footer {
+
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #footer {
+
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #footer {
+
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #footer {
+
+  }
+}

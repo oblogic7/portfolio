@@ -1,0 +1,51 @@
+#photography {
+  background: #000;
+
+  .wrapper {
+    padding: 10px;
+
+    img {
+      /* ensures padding at the bottom of the image is correct */
+      vertical-align:bottom;
+
+      /* hide the images until the plugin has run. the plugin will reveal the images*/
+      opacity:0;
+
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #photography {
+
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #photography {
+
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #photography {
+
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #photography {
+
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #photography {
+
+  }
+}

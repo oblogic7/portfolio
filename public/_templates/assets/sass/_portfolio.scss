@@ -1,0 +1,92 @@
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-20px);
+  }
+}
+
+#portfolio {
+  background: $orange;
+
+  .row {
+    position: relative;
+  }
+
+  .scroll-arrow {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    z-index: 3;
+    background: rgba(255, 213, 105, 1);
+    border: 2px solid #fff;
+    padding: 5px 10px;
+  }
+
+  .wrapper {
+    display: inline-block;
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 100%;
+    margin-bottom: -4px;
+
+    .inner-wrapper {
+      width: 2000px;
+    }
+  }
+
+  .portfolio-thumb {
+    transition: all .3s linear;
+    float: left;
+    padding: 0 $grid-gutter-width/2;
+    width: 244px;
+    position: relative;
+    top: 10px;
+
+    &:hover, &.touch {
+      transition: all 0s linear;
+      top: 0px;
+    }
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #portfolio {
+    
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #portfolio {
+
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #portfolio {
+
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #portfolio {
+
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #portfolio {
+
+  }
+}

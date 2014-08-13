@@ -1,0 +1,125 @@
+#header {
+  color: #000;
+  margin-top: 10px;
+
+  h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  .col-sm-9 {
+    padding: 0;
+  }
+
+  .nav-wrapper {
+    position: relative;
+
+    .navbar {
+      min-height: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      background: $light-blue;
+      @include border-radius(0);
+      font-family: $font-josefin;
+      font-size: 1.2em;
+      z-index: 30;
+      clear: both;
+
+      .icon-bar {
+        background: #fff;
+      }
+
+      a {
+        color: #fff;
+        padding: 12px 0 8px;
+
+        &:hover, &:focus, &:active {
+          background: $blue;
+        }
+      }
+
+      .navbar-nav.nav-justified {
+          width: auto;
+        li {
+          float: none;
+        }
+      }
+    }
+  }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  #header {
+
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  #header {
+    h1 {
+      margin-top: 0;
+      font-size: 3.5em;
+    }
+
+    h2 {
+      font-size: 3em;
+    }
+
+    .headshot {
+      max-width: 200px;
+      float: right;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #header {
+    .headshot {
+      float: left;
+      max-width: 100%;
+      margin-bottom: 0;
+    }
+
+    .col-sm-9 {
+      padding: 0 15px;
+    }
+
+    .nav-wrapper {
+      height: 206px;
+    }
+
+    .navbar {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #header {
+
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #header {
+
+  }
+}
