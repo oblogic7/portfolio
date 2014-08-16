@@ -6775,10 +6775,11 @@ h3 {
   /* line 102, ../sass/_header.scss */
   #header .nav-wrapper {
     height: 206px; }
-  /* line 106, ../sass/_header.scss */
-  #header .navbar {
-    position: absolute;
-    bottom: 10px; } }
+    /* line 104, ../sass/_header.scss */
+    #header .nav-wrapper .navbar {
+      position: absolute;
+      bottom: 10px;
+      margin-bottom: 0; } }
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
 /* line 1, ../sass/_about.scss */
